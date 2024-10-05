@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch in Emulicious",
+      "preLaunchTask": "${defaultBuildTask}",
+      "type": "emulicious-debugger",
+      "request": "launch",
+      "program": "${fileDirname}/output.gb",
+      "port": 58870,
+      "stopOnEntry": false
+    }
+  ]
+}
